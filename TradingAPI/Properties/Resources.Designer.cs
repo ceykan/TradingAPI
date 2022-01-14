@@ -61,32 +61,12 @@ namespace TradingAPI.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CompanyName,Symbol,ExchangeName
-        ///SteadyMed Ltd.,STDY,NASDAQ
-        ///O2Micro International Limited,OIIM,NASDAQ
-        ///&quot;Kandi Technologies Group, Inc.&quot;,KNDI,NASDAQ
-        ///&quot;Codexis, Inc.&quot;,CDXS,NASDAQ
-        ///&quot;MRV Communications, Inc.&quot;,MRVC,NASDAQ
-        ///&quot;Foundation Building Materials, Inc.&quot;,FBM,NYSE
-        ///argenx SE,ARGX,NASDAQ
-        ///ZIOPHARM Oncology Inc,ZIOP,NASDAQ
-        ///&quot;Dillard&apos;s, Inc.&quot;,DDS,NYSE
-        ///Nuveen New York Municipal Value Fund 2,NYV,NYSE
-        ///Century Aluminum Company,CENX,NASDAQ
-        ///Tsakos Energy Navigation Ltd,TNP^E,NYSE
-        ///&quot;Werner Enterprises, Inc.&quot;,WERN,NASDAQ
-        ///Unisy [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string CompanyData {
-            get {
-                return ResourceManager.GetString("CompanyData", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Name,Symbol,Exchange,LastPrice,Change,ChangePercent,Timestamp,MSDate,MarketCap,Volume,ChangeYTD,ChangePercentYTD,High,Low,Open
-        ///Apple Inc,AAPL,NASDAQ,524.49,15.6,3.06549549018453,Wed Oct 23 13:39:19 UTC-06:00 2013,41570.568969907,476497591530,397562,532.1729,-1.44368493773359,52499,519.175,519.175
-        ///.
+        ///   Looks up a localized string similar to Name,Symbol,Exchange,LastPrice,Change,ChangePercent,TimeStamp,MSDate,MarketCap,Volume,ChangeYTD,ChangePercentYTD,High,Low,Open
+        ///&quot;China Lodging Group, Limited&quot;,HTHT,NASDAQ,94,75,63,3/21/2021,77,75,17,93,11,58,68,82
+        ///Capital Bank Financial Corp.,CBF,NASDAQ,56,74,96,11/25/2021,55,94,13,19,38,76,92,99
+        ///UNITIL Corporation,UTL,NYSE,85,66,83,11/27/2021,66,67,65,31,69,9,58,88
+        ///STMicroelectronics N.V.,STM,NYSE,42,28,18,6/16/2021,47,38,73,45,78,78,31,100
+        ///&quot;Profire Energy, Inc.&quot;,PFIE,NASDAQ,17,11,24,6/19/2021,63,32,2, [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TradingData {
             get {
